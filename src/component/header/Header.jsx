@@ -1,3 +1,5 @@
+import { ThemeToggle } from "../themetoggle/ThemeToggle";
+
 function Header() {
   return (
     <header className="m-2 sm:m-4 h-12 px-4 rounded-lg bg-gray-300/30 dark:bg-gray-600/30 bg- backdrop-blur-sm flex justify-between items-center">
@@ -40,7 +42,9 @@ function Header() {
         </svg>
       </a>
 
-      <div className="flex justify-between gap-2 sm:gap-4">
+      <div className="flex justify-between items-center gap-2 sm:gap-4">
+        <ThemeToggle />
+
         <a href="https://discord.com/users/1053259863569989652" target="_blank">
           <svg
             width="24"
