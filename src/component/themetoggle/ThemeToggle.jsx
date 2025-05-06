@@ -65,7 +65,7 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-1 bg-blue-400/30 dark:bg-amber-200/30 rounded-full transition-colors duration-300 focus:outlin-hidden"
+      className="p-1 bg-blue-400/30 dark:bg-amber-200/30 rounded-full cursor-pointer transition-colors duration-300 focus:outlin-hidden"
     >
       {isDarkMode ? (
         <svg
