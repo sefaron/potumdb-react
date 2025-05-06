@@ -7,16 +7,16 @@ function Error404() {
         alt=""
       />
       <main className="min-h-full flex flex-col items-center justify-center p-6 overflow-hidden">
-        <h1 className="text-4xl text-black dark:text-white font-bold text-center my-12 text-wrap">
+        <h1 className="text-4xl text-white font-bold text-center my-12 text-wrap">
           If you want it,
         </h1>
-        <h1 className="text-4xl text-black dark:text-white font-bold text-center my-8 text-wrap">
+        <h1 className="text-4xl text-white font-bold text-center my-6 text-wrap">
           then you'll have to take it.
         </h1>
-        <h1 className="text-4xl text-black dark:text-white font-bold text-center my-8 text-wrap">
+        <h1 className="text-4xl text-white font-bold text-center my-6 text-wrap">
           But you already knew that.
         </h1>
-        <h3 className="text-base bg-red-700 p-2 text-black dark:text-white fixed bottom-15">
+        <h3 className="text-base bg-red-700 p-2 px-4 rounded-md text-white fixed bottom-25">
           Error 404
         </h3>
       </main>
