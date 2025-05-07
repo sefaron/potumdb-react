@@ -17,7 +17,7 @@ function Home() {
       </Link>
       <Link
         className="block text-2xl p-[0.8rem] w-full max-w-[320px] hover:scale-103 transition-transform duration-500 rounded-md font-medium text-center bg-gray-50 hover:bg-gray-200 dark:bg-neutral-800/50 dark:hover:bg-neutral-700/50 border border-blue-300 shadow-2xs"
-        to="food"
+        to="bag"
       >
         Bag Expansion
       </Link>

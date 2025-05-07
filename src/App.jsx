@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router";
 import Error404 from "./pages/404/error404";
 import Home from "./pages/home/Home";
 import Food from "./pages/food/Food";
+import Bag from "./pages/bag/bag";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="food" element={<Food />} />
+        <Route path="bag" element={<Bag />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </>

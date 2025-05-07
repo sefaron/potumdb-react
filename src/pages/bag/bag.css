@@ -1,0 +1,31 @@
+.food-table {
+  margin: 1rem 0;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.food-table th,
+.food-table td {
+  padding: 12px 15px;
+}
+
+.food-table tbody tr {
+  border-bottom: 1px solid #dfdfdfbb;
+}
+
+.dark .food-table tbody tr {
+  border-bottom: 1px solid rgba(61, 61, 61, 0.267);
+}
+
+.food-table tbody tr:nth-child(even) {
+  background-color: rgba(190, 184, 255, 0.377);
+}
+
+.dark .food-table tbody tr:nth-child(even) {
+  background-color: #5e549146;
+}
+
+.food-table tbody tr:last-of-type {
+  border-bottom: 4px solid rgb(55, 42, 172);
+}
