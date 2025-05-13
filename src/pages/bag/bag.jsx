@@ -2,9 +2,9 @@ import "./bag.css";
 
 function Bag() {
   return (
-    <main className="m-2 sm:m-4">
-      <div className="p-2 sm:p-4 overflow-x-auto rounded-lg bg-gray-300/30 dark:bg-gray-600/30 bg- backdrop-blur-sm flex sm:flex-col justify-between items-center">
-        <table className="text-sm sm:text-base md:text-lg border-collapse food-table">
+    <main className="m-4">
+      <div className="p-0 sm:p-4 overflow-x-auto rounded-lg bg-gray-300/30 dark:bg-gray-600/30 bg- backdrop-blur-sm flex sm:flex-col justify-between items-center">
+        <table className="text-sm sm:text-base border-collapse food-table shadow-light dark:shadow-dark">
           <thead className="bg-indigo-800 text-left font-bold text-gray-100">
             <tr>
               <th>Bag Slot</th>
