@@ -1,6 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
+  --breakpoint-sm: 600px;
+
   --font-ss3: "Source Sans 3", system-ui;
+
+  --color-text: oklch(14.5% 0 0);
+  --color-text-dark: oklch(92.2% 0 0);
+
+  --color-bg: #fff;
+  --color-bg-dark: oklch(14.5% 0 0);
+  --color-primary: oklch(98.5% 0 0);
+  --color-secondary: oklch(95% 0 0);
+  --color-primary-dark: oklch(20.5% 0 0);
+  --color-secondary-dark: oklch(26.9% 0 0);
+
+  --color-borderlight: var(--color-gray-300);
+  --color-borderdark: color-mix(
+    in oklab,
+    var(--color-gray-500) 50%,
+    transparent
+  );
+
+  --shadow-light: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  --shadow-dark: rgba(205, 210, 255, 0.15) 0px 1px 4px;
 }
