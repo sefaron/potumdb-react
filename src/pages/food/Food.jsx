@@ -130,31 +130,79 @@ function Food() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
           <FoodCard owner="S A R A" lv="10" code="4040404" />
-          <FoodCard owner="S A R A" lv="10" code="4040404" />
-          <FoodCard owner="S A R A" lv="10" code="4040404" />
+          <FoodCard owner="GODragon" lv="10" code="7257777" />
+          <FoodCard owner="AlvinXxX" lv="10" code="4233333" />
         </div>
 
         <h2 className="text-lg font-bold" id="cr">
           Critical Rate
         </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+          <FoodCard owner="Player20" lv="10" code="7162029" />
+          <FoodCard owner="- Kanna -" lv="10" code="5119105" />
+          <FoodCard owner="#SAM#" lv="10" code="2022020" />
+        </div>
+
         <h2 className="text-lg font-bold" id="mp">
           MP
         </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+          <FoodCard owner="Aka Shiro" lv="10" code="1027777" />
+          <FoodCard owner="Yamaha" lv="10" code="4010090" />
+          <FoodCard owner="yuxieyoko" lv="10" code="3017676" />
+        </div>
+
         <h2 className="text-lg font-bold" id="watk">
           Weapon ATK
         </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+          <FoodCard owner="YusagiKurumi" lv="10" code="1067777" />
+          <FoodCard owner="夜トyato☆" lv="10" code="1010810" />
+          <FoodCard owner="『 G a p a p a 』" lv="10" code="6010024" />
+        </div>
+
         <h2 className="text-lg font-bold" id="str">
           STR
         </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+          <FoodCard owner="Echidna@" lv="10" code="1010055" />
+          <FoodCard owner="くくりぼー☆" lv="10" code="1110033" />
+          <FoodCard owner="くアジヤ" lv="10" code="1010968" />
+        </div>
+
         <h2 className="text-lg font-bold" id="dex">
           DEX
         </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+          <FoodCard owner="Espur" lv="10" code="3111999" />
+          <FoodCard owner="Aurianne" lv="10" code="7140777" />
+          <FoodCard owner="· H20 ·" lv="10" code="1010058" />
+        </div>
+
         <h2 className="text-lg font-bold" id="pres">
           Physical Resistance
         </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+          <FoodCard owner="ramenEso" lv="10" code="6010701" />
+          <FoodCard owner="L.casei Shirato" lv="10" code="2020111" />
+          <FoodCard owner="てんげん " lv="10" code="1020001" />
+        </div>
+
         <h2 className="text-lg font-bold" id="mres">
           Magic Resistance
         </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+          <FoodCard owner="Niacin [B3]" lv="10" code="2020505" />
+          <FoodCard owner="Kiyanh" lv="10" code="1111575" />
+          <FoodCard owner="nanako♪" lv="10" code="6190007" />
+        </div>
       </div>
     </main>
   );
