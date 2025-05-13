@@ -1,14 +1,48 @@
+import "./toast.css";
+
 function FoodCard(i) {
+  const code = i.code;
+
+  function copyToClipboard() {
+    navigator.clipboard.writeText(code).then(
+      () => {
+        showToast("Code copied to clipboard: " + code);
+      },
+      (err) => {
+        console.error("Could not copy text: ", err);
+      }
+    );
+  }
+
+  function showToast(message) {
+    var toast = document.createElement("div");
+    toast.className = "toast";
+    toast.innerText = message;
+    document.body.appendChild(toast);
+    toast.classList.add("show");
+    setTimeout(function () {
+      toast.classList.remove("show");
+      document.body.removeChild(toast);
+    }, 3000);
+  }
+
   return (
     <div className="p-4 flex flex-col gap-4 rounded-md border-1 bg-primary dark:bg-primary-dark border-gray-300 dark:border-gray-500/50">
       <div>
         🏠 {i.owner} 🍕 Level {i.lv}
       </div>
 
-      <div className=" p-2 px-4 w-auto flex flex-row items-center justify-between rounded-md bg-secondary dark:bg-secondary-dark border-1 border-borderlight dark:border-borderdark">
+      <div className=" p-2 px-4 w-auto flex flex-row items-center justify-between rounded-md bg-secondary dark:bg-secondary-dark border-1 border-borderlight dark:border-borderdark relative tooltip">
         <div>{i.code}</div>
 
-        <button className="flex cursor-pointer items-center justify-center">
+        <div className="absolute p-2 px-4 text-xs bg-secondary dark:bg-secondary-dark border-borderlight dark:border-borderdark rounded-md hidden tooltip-text">
+          Copy
+        </div>
+
+        <button
+          onClick={copyToClipboard}
+          className="flex cursor-pointer items-center justify-center"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
