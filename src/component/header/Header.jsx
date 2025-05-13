@@ -2,7 +2,7 @@ import { ThemeToggle } from "../themetoggle/ThemeToggle";
 
 function Header() {
   return (
-    <header className="m-2 sm:m-4 h-12 px-4 rounded-lg bg-gray-300/30 dark:bg-gray-600/30 bg- backdrop-blur-sm flex justify-between items-center">
+    <header className="m-4 my-6 h-12 px-4 rounded-lg bg-gray-300/30 dark:bg-gray-600/30 bg- backdrop-blur-sm flex justify-between items-center">
       <a href="/">
         <svg
           id="Layer_1"
