@@ -1,10 +1,13 @@
-import "./bag.css";
+import GoToTop from "../../component/GoToTop";
+import Header from "../../component/header";
 
 function Bag() {
   return (
-    <main className="m-4">
-      <div className="p-0 sm:p-4 overflow-x-auto rounded-lg bg-gray-300/30 dark:bg-gray-600/30 bg- backdrop-blur-sm flex sm:flex-col justify-between items-center">
-        <table className="text-sm border-collapse food-table shadow-light dark:shadow-dark">
+    <>
+      <Header />
+      <GoToTop />
+      <main className="p-0 sm:p-4 overflow-x-auto rounded-lg bg-dark-bg/5 dark:bg-light-bg/2 backdrop-blur-sm shadow-2xs flex sm:flex-col justify-between items-center">
+        <table className="text-xs sm:text-sm rounded-md overflow-hidden border-collapse food-table shadow-xs">
           <thead className="bg-indigo-800 text-left font-bold text-gray-100">
             <tr>
               <th>Bag Slot</th>
@@ -564,7 +567,7 @@ function Bag() {
               <td>93</td>
               <td>Repthon Wings x5</td>
               <td>Repthon</td>
-              <td>Deltzon Research Zone : Dee est Area</td>
+              <td>Deltzon Research Zone : Deepest Area</td>
             </tr>
             <tr>
               <td> </td>
@@ -690,12 +693,12 @@ function Bag() {
               <td> </td>
               <td>Bizarre Skin x30</td>
               <td>Demonic Eye, Evil Eye</td>
-              <td>Dea Ruinea (Demonic Eye), Morga Wasteland (Evil Eye)</td>
+              <td>Morga Wasteland (Evil Eye)</td>
             </tr>
           </tbody>
         </table>
-      </div>
-    </main>
+      </main>
+    </>
   );
 }
 
