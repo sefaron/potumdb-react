@@ -6,8 +6,8 @@ function Bag() {
     <>
       <Header />
       <GoToTop />
-      <main className="p-0 sm:p-4 overflow-x-auto rounded-lg bg-dark-bg/5 dark:bg-light-bg/2 backdrop-blur-sm shadow-2xs flex sm:flex-col justify-between items-center">
-        <table className="text-xs sm:text-sm rounded-md overflow-hidden border-collapse food-table shadow-xs">
+      <main className="p-0 sm:p-6.5 overflow-x-auto  flex sm:flex-col justify-between items-center">
+        <table className="text-xs sm:text-sm rounded-lg overflow-hidden border-collapse food-table">
           <thead className="bg-indigo-800 text-left font-bold text-gray-100">
             <tr>
               <th>Bag Slot</th>

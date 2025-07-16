@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="mb-4 h-12 px-4 rounded-lg bg-dark-bg/5 dark:bg-light-bg/2 backdrop-blur-sm shadow-2xs flex justify-between items-center">
+    <header className="h-12 p-6.5 bg-light-bg dark:bg-dark-bg flex justify-between items-center">
       <a href="/">
         <svg
           id="Layer_1"

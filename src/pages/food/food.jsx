@@ -29,17 +29,13 @@ function FoodCard(i) {
   }
 
   return (
-    <div className="p-4 flex flex-col gap-4 rounded-md border-1 bg-light-bg dark:bg-dark-bg border-light-border dark:border-dark-border shadow-xs">
+    <div className="p-4 flex flex-col gap-4 rounded-lg border bg-light-bg dark:bg-dark-primary border-light-border dark:border-none">
       <div>
         🏠 {i.owner} 🍕 Level {i.lv}
       </div>
 
-      <div className=" p-2 px-4 flex flex-row items-center justify-between rounded-md bg-light-primary dark:bg-dark-primary border-1 border-light-border dark:border-dark-border relative tooltip">
+      <div className=" p-2 px-4 flex flex-row items-center justify-between rounded-lg bg-light-primary dark:bg-dark-bg border border-light-border dark:border-dark-border relative">
         <div>{i.code}</div>
-
-        <div className="absolute p-2 px-3 text-xs bg-light-secondary dark:bg-dark-secondary border-1 border-light-border dark:border-dark-border rounded-md hidden tooltip-text shadow-xs">
-          Copy
-        </div>
 
         <button
           onClick={copyToClipboard}
@@ -72,7 +68,7 @@ function Food() {
       <Header />
       <GoToTop />
 
-      <main className="flex flex-col items-center justify-center p-4 rounded-lg bg-dark-bg/5 dark:bg-light-bg/2 backdrop-blur-sm shadow-2xs">
+      <main className="flex flex-col items-center justify-center p-6.5 ">
         <div className=" gap-4 flex flex-col">
           <h1 className="text-3xl font-bold">Food buff codes</h1>
           <h2 className="text-base font-semibold">

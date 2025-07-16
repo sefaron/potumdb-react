@@ -61,12 +61,3 @@
     opacity: 0;
   }
 }
-
-.tooltip:hover .tooltip-text {
-  display: block;
-}
-
-.tooltip-text {
-  top: -120%;
-  right: 0;
-}
