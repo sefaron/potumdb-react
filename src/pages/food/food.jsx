@@ -29,12 +29,12 @@ function FoodCard(i) {
   }
 
   return (
-    <div className="p-4 flex flex-col gap-4 rounded-lg border bg-light-bg dark:bg-dark-primary border-light-border dark:border-none">
+    <div className="p-4 flex flex-col gap-4 rounded-lg border bg-light-bg dark:bg-dark-bg border-light-border dark:border-dark-border/70">
       <div>
         🏠 {i.owner} 🍕 Level {i.lv}
       </div>
 
-      <div className=" p-2 px-4 flex flex-row items-center justify-between rounded-lg bg-light-primary dark:bg-dark-bg border border-light-border dark:border-dark-border relative">
+      <div className=" p-2 px-4 flex flex-row items-center justify-between rounded-lg bg-light-primary dark:bg-dark-primary border border-light-border dark:border-dark-border/50 relative">
         <div>{i.code}</div>
 
         <button
